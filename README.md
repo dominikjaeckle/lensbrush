@@ -6,10 +6,9 @@ Lensbrush is a simple d3 plugin, which allows you to perform a selection based o
 var brush = d3.svg.lensbrush();
 ```
 
-Please note that the extent method returns an array which contains three values:
-
-1.center x-value of the lens
-2.center y-value of the lens
+Please note that the extent method returns an array which contains three values: <br/>
+1.center x-value of the lens <br/>
+2.center y-value of the lens <br/>
 3.radius
 
 ```javascript
