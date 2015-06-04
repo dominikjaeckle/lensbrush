@@ -7,9 +7,9 @@ var brush = d3.svg.lensbrush();
 ```
 
 Please note that the extent method returns an array which contains three values: <br/>
-1.center x-value of the lens <br/>
-2.center y-value of the lens <br/>
-3.radius
+1. center x-value of the lens <br/>
+2. center y-value of the lens <br/>
+3. radius
 
 ```javascript
 brush.extent();
