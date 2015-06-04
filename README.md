@@ -7,9 +7,9 @@ var brush = d3.svg.lensbrush();
 ```
 
 Please note that the extent method returns an array which contains three values: 
-1. center x-value of the lens
-2. center y-value of the lens
-3. radius
+1.center x-value of the lens
+2.center y-value of the lens
+3.radius
 
 ```javascript
 brush.extent();
@@ -25,10 +25,10 @@ if (brush.isWithinLens(x, y)) {
 
 ## Usage
 
-- **Create a new lens: ** Press and hold the left mouse button. Moving the mouse will change the radius of the lens. Release the mouse button to conclude your selection.
-- **Relocate the lens: ** Drag and drop the lens. 
-- **Resize the lens: ** Position the mouse on the border of the lens. Press and hold the left mouse to change the radius. Release the mouse button to conclude your selection.
-- **Delete the lens: ** Click somewhere outside the lens.
+- **Create a new lens:** Press and hold the left mouse button. Moving the mouse will change the radius of the lens. Release the mouse button to conclude your selection.
+- **Relocate the lens:** Drag and drop the lens. 
+- **Resize the lens:** Position the mouse on the border of the lens. Press and hold the left mouse to change the radius. Release the mouse button to conclude your selection.
+- **Delete the lens:** Click somewhere outside the lens.
 
 ## Files
 
